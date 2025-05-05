@@ -22,7 +22,6 @@ use std::{
     collections::{BTreeMap, HashSet},
     sync::Arc,
 };
-
 use parking_lot::Mutex;
 
 use self::{txn::Transaction, watermark::Watermark};
